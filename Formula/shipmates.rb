@@ -1,25 +1,25 @@
 class Shipmates < Formula
   desc "A crew of specialist AI agents and command workflows that drive a GitHub issue to a reviewed, CI-green pull request"
   homepage "https://saman-mb.github.io/shipmates/"
-  version "0.1.18"
+  version "0.1.19"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.18/shipmates-aarch64-apple-darwin.tar.xz"
-      sha256 "e4f8540c40310c20ce8dd737806550af56565916fd977f663eaef2d04536fa5d"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.19/shipmates-aarch64-apple-darwin.tar.xz"
+      sha256 "067672e18846034b872dd76695783a39358927457497f5ec83f6267189f21a69"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.18/shipmates-x86_64-apple-darwin.tar.xz"
-      sha256 "a7d56c55deefd67c9bf14792fac3d13ae9f8f9b2607360364a4032e799ccff43"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.19/shipmates-x86_64-apple-darwin.tar.xz"
+      sha256 "e6b5cbe81736f53fefc99be694f056333a316ac9d22925fe6a95344974019b20"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.18/shipmates-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c5166479b753aec82002a26f5c6dce67a43a09b8d25d04ae6b4236cbd95fbb54"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.19/shipmates-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "830af8b351262f7e72731fc8552c0d79cba165784755dd8c2305d98be0eee02e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.18/shipmates-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e0676f4b337eaac792cf2df74579e4b73bcd51445c8470b542baaef30a8414e1"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.19/shipmates-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4e28372b178c95fc2f7bcea9c9cd46edc8f858c3121577f92031b8782aafc894"
     end
   end
   license "MIT"
