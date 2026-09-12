@@ -1,25 +1,25 @@
 class Shipmates < Formula
   desc "A crew of specialist AI agents and command workflows that drive a GitHub issue to a reviewed, CI-green pull request"
   homepage "https://saman-mb.github.io/shipmates/"
-  version "0.1.20"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.20/shipmates-aarch64-apple-darwin.tar.xz"
-      sha256 "ba7cb95f591aec45d661001f907ad609768408d6cd6a7918d90135864884fc17"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.2.0/shipmates-aarch64-apple-darwin.tar.xz"
+      sha256 "38c0d3ba3a00e3f25dbd044d1cf41896decc925a1ecf92e2dcc99edf8a8c5a63"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.20/shipmates-x86_64-apple-darwin.tar.xz"
-      sha256 "0782642112b794a93550bdd22ecece47a9ed24ef7afb730bd14562aca911275b"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.2.0/shipmates-x86_64-apple-darwin.tar.xz"
+      sha256 "910fd7c2bed12771cdb5c47897109189cee840f4bfd2fd55fba50fc59e057097"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.20/shipmates-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0b5cb306f30dfe24b7d0485ba8ccbfb8632ec3a172f00656270ee6bc9bf94db8"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.2.0/shipmates-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d93331a35b421acc75b03e6996dc4a2a0a16b980a5d8bc000a0157e133a0e1e7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.1.20/shipmates-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b253a9e57d2bbf9d101b38fbe622c49bf192b44edd248a771652781391444e9f"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.2.0/shipmates-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1e4383740a9bfd7c70bb85e9a18ba9bb2c006b2d05f5f9ebdfeb9e7f530a6c7a"
     end
   end
   license "MIT"
