@@ -1,25 +1,25 @@
 class Shipmates < Formula
   desc "A crew of specialist AI agents and command workflows that drive a GitHub issue to a reviewed, CI-green pull request"
   homepage "https://saman-mb.github.io/shipmates/"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.3.0/shipmates-aarch64-apple-darwin.tar.xz"
-      sha256 "76c7970bdc8b4cbc09c7eff97e48dba164ba7be6ec2830e934e6ad3b640501d7"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.3.1/shipmates-aarch64-apple-darwin.tar.xz"
+      sha256 "9dea0b457f6699a9cc47c0fbb8bc8f2242a2442697ed46d098c47d0241c9cc02"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.3.0/shipmates-x86_64-apple-darwin.tar.xz"
-      sha256 "2a9dceba9254c4e5661960e1f23e4ff246a6a5dc8deda3222d02b3b669fafcf5"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.3.1/shipmates-x86_64-apple-darwin.tar.xz"
+      sha256 "b9d4ae394017706e8239d998da7aaa37b62eaca3dba99b9f275ae37bd69debcd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.3.0/shipmates-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "fa914cbd9cd30f115f9fb0c9d7d5b66943a9a43818b0ad0155bbff3b8285ae57"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.3.1/shipmates-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3e8979efcc3051f32247b85719fcf9c5ff6be090636d41bdbf4fd85a55f0839e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/saman-mb/shipmates/releases/download/v0.3.0/shipmates-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dd270b76e2052c93125464a549ee8bdf322a63ca0395d7912516d3723706dc5d"
+      url "https://github.com/saman-mb/shipmates/releases/download/v0.3.1/shipmates-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6565bf9cd1f77565432e02eadfe00d58361dc031694c7a8aa344d327e22941d2"
     end
   end
   license "MIT"
